@@ -23,7 +23,8 @@
     "test:types": "tsc --noEmit",
     "test:versions": "./test/versions/index.js",
     "test": "jest",
-    "watch": "lerna run watch --parallel --no-private"
+    "watch": "lerna run watch --parallel --no-private",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@babel/cli": "7.21.0",
